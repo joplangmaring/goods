@@ -6,7 +6,7 @@ import Support from './components/support';
 import About from './components/about';
 import Service from './components/service';
 import Footer from './components/footer';
-import { FaInstagram } from "react-icons/fa";
+import User from './components/user';
 const page = () => {
   return (
     <div>
@@ -14,6 +14,7 @@ const page = () => {
       <Hero/>
       <Plan/>
       <About/>
+      <User/>
       <Support/>
       <Service/>
       <Footer/>

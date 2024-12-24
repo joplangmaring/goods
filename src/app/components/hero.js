@@ -35,9 +35,14 @@ const Hero = () => {
         <button className="bg-gradient-to-r from-[#91ADBA] to-[#205166] text-white font-semibold py-2 px-6 rounded-full hover:bg-blue-600 transition">
           Get Started
         </button>
-        <button className="bg-gradient-to-r from-[#91ADBA] to-[#205166] text-white font-semibold py-2 px-6 rounded-full hover:bg-blue-600 transition">
+        <a
+          href="/Service of indian Money.pdf" // Path to your PDF file in the public folder
+          target="_blank" // Open the PDF in a new tab
+          rel="noopener noreferrer" // Security measure to prevent potential tab hijacking
+          className="bg-gradient-to-r from-[#91ADBA] to-[#205166] text-white font-semibold py-2 px-6 rounded-full hover:bg-blue-600 transition inline-block text-center"
+        >
           Learn More
-        </button>
+        </a>
       </div>
     </div>
   );

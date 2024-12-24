@@ -5,6 +5,8 @@ import Plan from './components/plan';
 import Support from './components/support';
 import About from './components/about';
 import Service from './components/service';
+import Footer from './components/footer';
+import { FaInstagram } from "react-icons/fa";
 const page = () => {
   return (
     <div>
@@ -14,6 +16,7 @@ const page = () => {
       <About/>
       <Support/>
       <Service/>
+      <Footer/>
     </div>
   )
 }

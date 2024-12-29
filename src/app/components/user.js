@@ -52,7 +52,6 @@ const UserStats = () => {
         </h2>
         <p className="mt-2 text-lg">Active Users</p>
       </div>
-
       <div className="text-center">
         <h2 className="text-4xl font-bold">
           {inView && <CountUp start={0} end={40} duration={3} />}+
